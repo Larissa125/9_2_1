@@ -1,0 +1,300 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	background-color: rgba(192, 192, 192, 0.329);
+	font-family: "FuturaFuturisLightC";
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+/* -------------- */
+ /* .wrapper {
+	 max-width: 1400px;
+	 padding: 50px;
+	 margin: 100px 50px 50px 100px ;
+	 height: 700px;
+	 background-color: white; */
+	
+	 
+ 
+ .logo {
+opacity: 20%;
+font-family: "Golriy";
+text-transform: uppercase;
+font-size: 42px;
+
+}
+.line {
+position: relative;
+top: -40px;
+bottom: auto;
+right: -130px;
+}
+.text {
+	font-family: "Gilroy";
+	font-size: 12px;
+	padding: 20px;
+	width: 200px;
+	position: relative;
+	left: 150px;
+	top: -100px;
+
+}
+.tel {
+	position: relative;
+	right: -350px;
+	top:-180px ;
+}
+.tellogo {
+	position: relative;
+	right: -290px;
+	top: -150px;
+}
+.oval2 {
+	position: relative;
+	top: -180px;
+	right: -300px;
+}
+.viberlogo {
+position: relative;
+right:-240px ;
+top: -150px;
+}
+.telega {
+position: relative;
+right: -260px;
+top:-180px ;
+
+}
+.telegalogo {
+	position: relative;
+	top: 30px ;
+	left: -60px;
+}
+ .link {
+	 font-family: "Golroy";
+	 font-weight: bold;
+	 font-size: 20px;
+	 color: black;
+	position: relative;
+	left: 350px ;
+	top: -200px ;
+
+
+ }
+
+ .link::before {
+content: "";
+
+ }
+ .email {
+	 font-family: "Golroy";
+	 font-weight: 500;
+	 font-size: 17px;
+	 color: black;
+	position: relative;
+	left: 230px ;
+	top: -170px ;
+
+ }
+
+ .link::before {
+	content: "";
+	background: url(../img/Path.png) 0 0/100% no-repeat;
+	width: 15px;
+	height: 60px;
+	display: inline-block;
+	position: relative;
+	left: -10px;
+	top: 43px;
+
+
+ }
+  .email::before {
+	content: "";
+	background: url(../img/Shape.png) 0 0/100% no-repeat;
+	width: 15px;
+	height: 60px;
+	display: inline-block;
+	position: relative;
+	left: -10px;
+	top: 50px;
+ }
+
+ .buttom {
+	 max-width: 195px;
+	 height:50px ;
+	 color: white;
+	 font-family:  "Gilroy";
+	background: linear-gradient(90deg, #f6bd60, #e88952);
+	 fon size: 18px;
+	 text-align: center;
+	font-size: 14px;
+	display: inline-block;
+	border-radius: 3px;
+	line-height: 40px;
+	padding: 0px 20px;
+position: absolute;
+	top: 50px;
+left: 1000px;
+	
+}
+ul li {
+	display: inline;
+	margin-right: 5px;
+border: 1px solid;
+border-color: transparent;
+ padding: 3px;
+position: relative;
+top: -130px;
+left: 70px;
+}
+ .block1 {
+position: fixed;
+width: 100%;
+top: 90px;
+left: 190px;
+z-index: 4;
+/* max-width: 1400px; */
+/* max-width: 100%; */
+	 padding: 50px;
+	 margin: -100px 0px 0px -200px ;
+	 height: 180px;
+	 background-color: white; 
+ }
+
+ .block2 {
+width: 100%;
+padding: 50px;
+margin: -80px 0px 0px 100px ;
+height: 450px;
+background-color: white; 
+position: relative;
+top: 250px;
+left: -100px;
+z-index: 1;
+ }
+
+ svg {
+	 max-width: 930px;
+	 position: relative;
+	 top: -290px;
+	 left: 550px;
+ }
+ .text2 {
+position: relative;
+top: -350px;
+font-family:"Gilroy";
+font-size: 30px;
+font-weight: bold;
+max-width: 500px;
+
+
+ }
+
+ .buttom2 {
+	 max-width: 195px;
+	 height:50px ;
+	 color: white;
+	 font-family:  "Gilroy";
+	background: linear-gradient(90deg, #f6bd60, #e88952);
+	 fon size: 18px;
+	 text-align: center;
+	font-size: 14px;
+	display: inline-block;
+	border-radius: 3px;
+	line-height: 40px;
+	padding: 0px 50px;
+position: absolute;
+	top: -100px;
+left: 100px;
+ }
+ .images {
+	 width: 300px;
+position: relative;
+top: -420px;	
+left: 280px; 
+}
+
